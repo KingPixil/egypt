@@ -23,7 +23,10 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link type="shortcut icon" href="favicon.png">
 
+    <!-- Plugins -->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,8 +37,8 @@
 </head>
 
 <body id="page-top" class="index">
-
-     
+    <div class="wrap"></div>
+     <div class="stuff">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -60,6 +63,15 @@
                         <a class="page-scroll" href="#portfolio">Guide</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#services">Media</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Timeline</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#quiz-section">Quiz</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
@@ -77,25 +89,26 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To The Egypt Guide!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in wow tada">Welcome To The Egypt Guide!</div>
+                <!-- <div class="clock"></div> -->
+                <div class="intro-heading wow tada">It's Nice To Meet You</div>
+                
+                <a href="#portfolio" class="page-scroll btn btn-xl wow fadeIn" data-wow-duration="3s">Tell Me More</a>
             </div>
         </div>
     </header>
-
    
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Guide</h2>
-                    <h3 class="section-subheading text-muted">This is the main guide to everything that you need to know about Egypt!</h3>
+                    <h2 class="section-heading wow fadeIn" data-wow-duration="3s">Guide</h2>
+                    <h3 class="section-subheading text-muted wow fadeIn" data-wow-duration="3s">This is the main guide to everything that you need to know about Egypt!</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow bounceInLeft">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -109,7 +122,7 @@
                         <p class="text-muted">All about the land!</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow bounceInDown">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -123,7 +136,7 @@
                         <p class="text-muted">How to live!</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow bounceInRight">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -137,7 +150,7 @@
                         <p class="text-muted">All about authority!</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow bounceInLeft">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -151,7 +164,7 @@
                         <p class="text-muted">What did they achieve?</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow bounceInUp">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -165,7 +178,7 @@
                         <p class="text-muted">Who was important?</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow bounceInRight">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -182,22 +195,184 @@
             </div>
         </div>
     </section>
-
+    
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading wow fadeIn" data-wow-duration="3s">Media</h2>
+                    <h3 class="section-subheading text-muted wow fadeIn">Some helpful videos and links.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                    </span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3Wvw6BivVI" frameborder="0" allowfullscreen class="wow fadeIn"></iframe>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                    </span>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                    </span>
+                    <h4 class="service-heading wow fadeIn">Links</h4>
+                    <p class="text-muted wow bounceInRight" style="display:block; font-size: 40px;">
+                          <a href="http://www.history.com/topics/ancient-history/ancient-egypt" style="display:block;">Ancient Egypt</a>
+                          <a href="http://discoveringegypt.com/" style="display:block;">Fun Stuff!</a>
+                          <a href="http://egypt.mrdonn.org/" style="display:block;">Mr Don's Egypt Guide!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Timeline Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading wow fadeIn" data-wow-duration="3s">Timeline</h2>
+                    <h3 class="section-subheading text-muted wow fadeIn" data-wow-duration="3s">Timeline of Egypt.</h3>
+                </div>
+            </div>
+            <div class="row wow swing">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <h1 style="font-size: 100px">1</h1>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>4500 BC</h4>
+                                    <h4 class="subheading">Beginning</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Small villages started to form along the Nile Valley.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h1 style="font-size: 100px">2</h1>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>3100 BC</h4>
+                                    <h4 class="subheading">Rise of Menes</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Menes rose to power in Upper Egypt. He wanted to rule Lower Egypt too, so his armies took control over Lower Egypt. Plus, he married a princess from Lower Egypt. He was the first <b>pharoh</b> and founded the first <b>Dynasty.</b></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h1 style="font-size: 100px">3</h1>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2700 BC - 2200 BC</h4>
+                                    <h4 class="subheading">Transition to Old Kingdom</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">The <b>Old Kingdom</b> started. During this period of time, Egypt developed their political system. Religion formed, and so did social classes. Religion played a big part in Egyptian Society. Religion also had emphasis on the <b>afterlife.</b> Pyramids were built as tombs. By the end of the Old Kingdom, Egypt had about two million people.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h1 style="font-size: 100px">4</h1>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2050 BC - 1750 BC</h4>
+                                    <h4 class="subheading">Middle Kingdom</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Before the time of the <b>Middle Kingdom,</b> a pharohs power declined so much, that <b>nobles</b> could challenge the pharohs. With this, Egypt had no official ruler. Then, around 2050 BC, a pharoh united all of Egypt. Still, towards the end of the Middle Kingdom, Egypt fell back into disorder.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h1 style="font-size: 100px">5</h1>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1550 BC - 1050 BC</h4>
+                                    <h4 class="subheading">New Kingdom</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Before the <b>Old Kingdom,</b> a group called the Hyksos invaded Egypt. A ruler Ahmose drove them out of Egypt. After this, the New Kingdom started. Egypt worked to increase its trade, and make profitable <b>trade routes.</b> One ruler who worked greatly to achieve this was <b>Queen Hatshepsut.</b> In the 1200s BC the Hittes came and fought Egypt's greatest war leader:<b>Ramses The Great.</b> After he died, the Sea Peoples crushed the Hitties and destroyed cities. After this, Egypt fell back into disorder and would never regain its strength.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>The Fall
+                                    <br>Of 
+                                    <br>Egypt!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Quiz Section -->
+    <section id="quiz-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeIn" data-wow-duration="3s">
+                    <h2 class="section-heading" style="text-align:center; float:middle;">Quiz</h2>
+                    <h3 class="section-subheading text-muted">Test Yourself!</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12">
+                   <div id="quiz" class="text-center" style="width:100%; text-align:center;">
+                       <button class="btnn btnn-2 btnn-2a btnn-large" data-wow-duration="3s" id="start-quiz" style="
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%; margin: 0 auto;">Start</button>
+                       <div id="quiz-stuff">
+  <h1 id="quiz-name"></h1>
+  <button id="submit-button" class="btnn btnn-2 btnn-2a">Submit Answers</button>
+  <button id="next-question-button" class="btnn btnn-2 btnn-2a">Next Question</button>
+  <button id="prev-question-button" class="btnn btnn-2 btnn-2a">Previous</button>
+  
+  <div id="quiz-results">
+    <p id="quiz-results-message"></p>
+    <p id="quiz-results-score"></p>
+  </div>
+</div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Stuff about me</h3>
+                    <h2 class="section-heading wow fadeIn" data-wow-duration="3s">About</h2>
+                    <h3 class="section-subheading text-muted wow fadeIn" data-wow-duration="3s">Stuff about me</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                      <div class="col-lg-4 col-lg-offset-2">
+                      <div class="col-lg-4 col-lg-offset-2 wow bounceInLeft">
                     <p>This is an amazing site to learn everything that you will ever need to know about Ancient Egypt. Feel free to use this as a study guide.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow bounceInRight">
                     <p>This site was coded by a web/mobile developer - Kabir Shah. I am also working on a project, where I make 180 websites in 180 days!</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -211,15 +386,13 @@
         </div>
     </section>
 
- 
-    
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact</h2>
-                    <h3 class="section-subheading text-muted">Tell me something.</h3>
+                    <h2 class="section-heading wow fadeIn" data-wow-duration="3s">Contact</h2>
+                    <h3 class="section-subheading text-muted wow fadeIn" data-wow-duration="3s">Tell me something.</h3>
                 </div>
             </div>
             <div class="row">
@@ -254,6 +427,7 @@
         </div>
     </section>
 
+    <!-- Footer Area -->
     <footer>
         <div class="container">
             <div class="row">
@@ -361,10 +535,12 @@
                             <!-- Project Details Go Here -->
                             <h2>RELIGION/SOCIAL/POLITICAL ORDER</h2>
                             <p class="item-intro text-muted">All about the authority!</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/circus.png" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/mummies.jpg" alt="">
                             <p align="left">
                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After about four centuries, the first and second dynasties fell. But at around 2700 BC, a Third Dynasty rose. This marked the epoch of time known as the <b>Old Kingdom.</b> This period of time lasted from 2700 BC to 2200 BC, while Egyptians were developing their political system. This system declared that a pharaoh was both a king and a god. The most well known pharaoh of the Old Kingdom was <b>Khufu.</b> He had many gorgeous monuments built for him. Just like in Mesopotamia, when Egypt had 2 million people at the end of the Old Kingdom, it developed a social hierarchy. At the top of this hierarchy was a pharaoh, below the pharaoh were <b>nobles,</b> who helped run the government, and temples. Next came the middle class, which included scribes and crafts people. There was a fair amount of these people. Last came the lower class, this was 80 percent of the whole population! They included farmers, servants, and slaves. When society was still developing, Egypt began to implement trade. With this, Egypt also became a highly religious place.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Egyptians perspective of religion extended beyond a person’s death, as many traditions focused on life after death. Egyptians practiced polytheism. To worship the different gods, Egyptians built temples. The Egyptians had many gods, some of them being:
+                            </p>
+                            
 <ul align="left">
 <li>Re</li>
 <li>Osiris</li>
@@ -373,7 +549,9 @@
 <li>Thoth</li>
 <li>Geb</li>
 </ul>
+                            <p align="left">
 Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed that a Ka was a person's life force. This would leave the body after death and become a spirit. It also had the same basic needs as a person. such as food, rest, and entertainment. People needed to fill tombs with objects for the ka so that the ka’s needs would be fulfilled. A body also had requirements, if it was decayed, then a spirit will not recognize it, so Egyptians used a technique called embalming to preserve the dead bodies. These were <b>mummies.</b> <br>The embalming process went like this:
+                            </p>
 <ol align="left">
 <li>Remove all organs except for heart.</li>
 <li>Put organs inside a jar.</li>
@@ -381,6 +559,7 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
 <li>Wrapped with linen cloths.</li>
 <li>Place mummy in coffin</li>
 </ol>
+                            <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Still, only royal and other <b>elite</b> people could afford mummies.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Egyptians also believed that tombs were important, especially ones for royal people. This led them to build <b>pyramids</b> as tombs. Many are still standing to this date. They had a point facing up to have a pathway to the afterlife. This shows how advanced Egyptians were in <b>engineering.</b> Still, there is debate on how Egyptians built these spectacular pyramids. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All in all, religion was a very important part of Egypt’s social and political order, because of Egyptians high religious belief.
@@ -409,8 +588,11 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
                             <!-- Project Details Go Here -->
                             <h2>EGYPTIAN ACHIEVMENTS</h2>
                             <p class="item-intro text-muted">Achievments of Egyptians!</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/game.png" alt="">
-                            <p>Project</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/temple.jpg" alt="">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Egyptians are still known for their advanced skills in architecture. You have probably heard of the pyramids. Other than that, Egyptians also built huge temples, these temples were where the gods lived. On the path leading to the temple, there was a row of <b>sphinxes.</b> A sphinx is an imaginary creature with a body of a lion and a head of an animal or human. On the sides of the gates were an <b>obelisk.</b> One example of an obelisk is the Washington Monument. When you go inside, everything his decorated and filled with colorful pictures of pharaohs and writing. One great temple is the Temple of Karnak. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art was also very important in Ancient Egypt. There were many colorful paintings. These paintings were painted on temples and tombs. To paint, Egyptians practice a form of art called frontalism. Frontalism is when the head of a character is facing the side, while the body remains facing the viewer. It was extremely hard to draw people this way. Unfortunately, only important people could see paintings. Egyptian art also included carving and jewelry. Many tombs and temples had statues that were highly precise in detail. Also, Egyptians made jewelry out of precious stones. Sadly, tomb raiders have taken many from tombs today. One remains that was not disturbed. It belonged to <b>King Tutankhamen.</b> Since it was not disturbed, scientists can see what Egyptian burial practices were like.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you were an Ancient Egyptian, you could probably understand Egyptian <b>hieroglyphics.</b> These were a set of symbols representing something, and there were more than 600 symbols! Hieroglyphics were also one of the world’s first writing systems. They were written on <b>papyrus.</b> Papyrus was a paper-like material made from seeds. Scribes would use papyrus to write on, and would write on papyrus using brushes and ink. Because of the fact that hieroglyphics could be written horizontally or vertically, it made it hard to read. Papyrus was also very long-lasting and didn’t decay in Egypt’s dry climate, with this, many Egyptian texts and literature have survived. How do we know all of this? In 1799, a french soldier found a special stone slab that had hieroglyphics, it also had greek text. Since all of the text in it was the same, historians could figure out what the hieroglyphics translated to! This was called the <b>Rosetta Stone.</b>
+</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -434,9 +616,14 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>Important People</h2>
-                            <p class="item-intro text-muted">The people who were importnant in Egypt.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/submarine.png" alt="">
-                            <p>Project</p>
+                            <p class="item-intro text-muted">The people who were important in Egypt.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/tut.jpg" alt="">
+                            <p>
+                            	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soon after the end of the Old Kingdom, the amount of power that was in the Pharaoh’s hands was taken away. After 2200 BC, the Old Kingdom had ended, and nobles were ruling most cities for 160 more years to come. Then came the <b>Middle Kingdom.</b> This was a time of stability and peace. Soon, a group known as the Hyksos invaded Lower Egypt, and ruled as Pharaohs there. After the Egyptians fought back, a person from Thebes known as Ahmose declared himself king. He drove the Hyksos out of Egypt, and ruled over Egypt as a whole. This marked the beginning of Egypt's eighteenth dynasty.<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, it was the start of the <b>New Kingdom.</b> Egypt then began to build an empire, in fear of further attacks.This allowed the Egyptian traders to expand their trading across more distant lands. This was mainly because of a key leader in Ancient Egypt: <b>Queen Hatshepsut.</b> She was married to her half-brother, King Thutmose Ⅱ. After he died, the throne went to Thutmose Ⅲ. But because of the fact that he was too young, Queen Hatshepsut took rule. She was known to dress herself up as a man to hide the fact that she was a woman. This is the result of people thinking that woman should not rule. She was heavily focused on increasing Egypt’s trade, because she sent traders south to trade with people in the kingdom of Punt, and north to trade with Asia Minor and Greece. Many profitable <b>trade routes</b> began to appear. This money was important for Egypt’s art and architecture, which will be explained more thoroughly in the Egyptian Achievements section. But, Queen Hatshepsut was known for many monuments built for her. Still, despite all of Egypt’s effort in keeping them safe from invasions, many armies stood to challenge Egypt. One of these groups being Hittites. They were fought by a pharaoh known as <b>Ramses The Great.</b> Ramses was a fierce military leader, and fought against the Hittites for years without giving up. He was greatly outnumbered, but he did not admit defeat and went on to fight. Unfortunately, neither side could defeat the other. Still, this was only one group, other armies such as Tehenu also threatened Egypt. Ramses was so important, that after he died, people known as the Sea Peoples destroyed the Hittites and fought cities in Southwest Asia. After 50 years of fighting and war, Egypt managed to get them to stop. After this, Egypt’s empire that controlled Asia fell, and then the New Kingdom ended. After the New Kingdom, Egypt began a period of time where it was filled with violence and disorder on the streets. After these invasions, Egypt would never get back on its own two feet.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Egypt, the life stayed the same as the jobs, which included scribes, artisans, artists, architects, merchants, traders, soldiers, farmers, peasants, and slaves. There was a small amount of traders, even though trade was very essential in Egypt. Speaking of trade, why was it so essential? Trade was important to Egypt because they could gain valuable resources, and even earn money! With all of this money and wealth, Egypt could do extra things, and invest in arts and architecture. In the Eastern Mediterranean, trade was growing rapidly, and Egypt was gaining timber and copper. In the Nile Valley, Egypt was gaining gold, copper, and timber! With this, Egypt could get wealth and resources. Queen Hatshepsut was the one who worked to increase trade, and it worked! Egypt became wealthy and began to invest in things such as art and architecture. 
+
+                            </p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -462,7 +649,17 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
                             <h2>Resources</h2>
                             <p class="item-intro text-muted">Where I got ths information.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/safe.png" alt="">
-                            <p>Resources</p>
+                            <p>
+                            	<ul style="text-align:center;">
+                                    <li>Burstein, Stanley M., and Richard Shek. <i>Ancient Egypt</i>. <i>Holt World History: /ancient Civilizations</i>. Austin, TX: Holt, Rinehart and Winston, 2006. N. pag. Print.</li>
+                                    <li>
+                                    	"Ancient Egypt." For Kids and Teachers. N.p., n.d. Web. 23 Nov. 2015.
+                                    </li>
+                                    <li>
+                                        "Ancient Egypt." History.com. A&E Television Networks, n.d. Web. 23 Nov. 2015.
+                                    </li>
+                            </ul>
+                            </p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -470,7 +667,7 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
             </div>
         </div>
     </div>
-
+</div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -479,6 +676,13 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js"></script>
+    <script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js'></script>
+    <script>
+              new WOW().init();
+    </script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
@@ -488,7 +692,12 @@ Egyptian religion was heavily based on the <b>afterlife.</b> Egyptians believed 
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-
+<script>
+		$(window).load(function() {
+		// Animate loader off screen
+		$(".clock").fadeOut("slow");;
+	});
+	</script>	
 </body>
 
 </html>
