@@ -1,4 +1,8 @@
-
+//Loader
+$( document ).ready(function() {
+$( "html" ).removeClass( "loading" );
+$('.loading').hide();
+});
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
